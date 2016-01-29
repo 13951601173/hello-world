@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'forever=0.8.3' ]
+2 info using npm@2.14.9
+3 info using node@v0.12.9
+4 verbose install initial load of E:\Node\hello-world\package.json
+5 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\cookie-parser\package.json
+7 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\debug\package.json
+8 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\ejs\package.json
+9 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\express\package.json
+10 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\forever\package.json
+11 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\jade\package.json
+12 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\morgan\package.json
+13 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\npm-debug.log\package.json
+14 verbose installManyTop reading scoped package data from E:\Node\hello-world\node_modules\serve-favicon\package.json
+15 verbose readDependencies loading dependencies from E:\Node\hello-world\package.json
+16 silly cache add args [ 'forever=0.8.3', null ]
+17 verbose cache add spec forever=0.8.3
+18 silly cache add parsed spec { raw: 'forever=0.8.3',
+18 silly cache add   scope: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: 'forever=0.8.3',
+18 silly cache add   spec: 'E:\\Node\\hello-world\\forever=0.8.3',
+18 silly cache add   type: 'local' }
+19 error addLocal Could not install E:\Node\hello-world\forever=0.8.3
+20 verbose stack Error: ENOENT, open 'E:\Node\hello-world\forever=0.8.3'
+20 verbose stack     at Error (native)
+21 verbose cwd E:\Node\hello-world
+22 error Windows_NT 6.1.7600
+23 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "forever=0.8.3"
+24 error node v0.12.9
+25 error npm  v2.14.9
+26 error path E:\Node\hello-world\forever=0.8.3
+27 error code ENOENT
+28 error errno -4058
+29 error enoent ENOENT, open 'E:\Node\hello-world\forever=0.8.3'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -4058, true ]
